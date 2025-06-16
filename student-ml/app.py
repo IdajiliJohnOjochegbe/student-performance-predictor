@@ -18,7 +18,7 @@ goout = st.slider("Going Out (1-5)", 1, 5, 3)
 Dalc = st.slider("Weekday Alcohol Consumption (1-5)", 1, 5, 1)
 Walc = st.slider("Weekend Alcohol Consumption (1-5)", 1, 5, 2)
 
-# For simplicity, include only these features (must match training)
+# extracting features
 features = np.array([[age, studytime, failures, absences, goout, Dalc, Walc]])
 
 if st.button("Predict"):
