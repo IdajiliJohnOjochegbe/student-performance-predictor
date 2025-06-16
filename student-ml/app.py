@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-model = pickle.load(open('student_model.pkl', 'rb'))
+model = pickle.load(open('student-ml/student_model.pkl', 'rb'))
 
 st.title("🎓 Student Performance Predictor")
 st.write("Enter student details to predict if they will pass:")
